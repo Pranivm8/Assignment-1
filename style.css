@@ -1,0 +1,25 @@
+
+  h1 {color:#34017a; font-size: 100px;}
+  h2 {color:#34017a;font-size: 75px;}
+  h3 {color:#34017a;font-size: 50px;}
+  h4 {color:#34017a;font-size: 37px;}
+p {font-family: 'Raleway', sans-serif;}
+p {color:#34017a;font-size: 27px;}
+body {background-color: Lightblue;}
+.split {
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+
+}
+.right {
+    right: 0;
+
+}
