@@ -32,8 +32,7 @@ p {font-family: 'Raleway', sans-serif;}
   padding: 5px;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
+\.row::after {
   content: "";
   clear: both;
   display: table;
@@ -44,7 +43,6 @@ p {font-family: 'Raleway', sans-serif;}
   padding: 5px;
 }
 
-/* Clearfix (clear floats) */
 .row1::after {
   content: "";
   clear: both;
@@ -53,15 +51,15 @@ p {font-family: 'Raleway', sans-serif;}
 
 
 
-/* The hero image */
+
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pic of me 2.png");
 
-  /* Set a specific height */
+
   height: 875px;
 
-  /* Position and center the image to scale nicely on all screens */
+
   background-position: middle;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,3 +76,6 @@ p {font-family: 'Raleway', sans-serif;}
   color: purple;
 }
 .a {background-color: red;}
+.boxed {
+  border: 1px solid green ;
+}
